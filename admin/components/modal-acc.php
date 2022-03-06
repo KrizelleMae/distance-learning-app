@@ -24,10 +24,10 @@
   <!-- TWO -->
   <li class="mb-0">
     <a
-      class="uk-accordion-title w-full p-4 text-lg text-left bg-blue text-white hover:text-white"
+      class="uk-accordion-title w-full p-4  text-left bg-blue text-white hover:text-white"
       href="#"
     >
-      <p>What is Flowbite?</p>
+      <p class="text-lg">What is Flowbite?</p>
     </a>
     <div class="uk-accordion-content m-0 bg-gray-100">
       <div class="py-9 px-10 m-0">

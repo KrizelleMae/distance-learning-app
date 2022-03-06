@@ -1,7 +1,7 @@
 <?php 
 
 $page = "application";
-$stat = "pending";
+$stat = "graduates";
 
 ?>
 
@@ -20,8 +20,6 @@ $stat = "pending";
     <link rel="stylesheet" href="../css/navbar.css" />
 
     <script src="../tailwind/tailwind-cdn.js"></script>
-    
-    
   </head>
   <body class="bg-gray-100 h-screen">
     <?php include './components/navbar.php'; ?>
@@ -41,9 +39,7 @@ $stat = "pending";
       </div>
 
       <div class="mt-5">
-        <?php include './components/tbl-application.php'; ?>
-
-        <?php include './components/modal-application.php'; ?>
+       Graduates
       </div>
     </div>
   </body>

@@ -1,5 +1,5 @@
 <div id="modal-application" class="uk-modal-container text-gray-600" uk-modal>
-  <div class="uk-modal-dialog">
+  <div class="uk-modal-dialog ">
     <button class="uk-modal-close-default" type="button" uk-close></button>
     <div class="uk-modal-header">
       <p class="uk-modal-title">John Doe</p>
@@ -17,7 +17,7 @@
             Cancel
           </button>
           <button
-            class="py-2 px-4 border border-blue-800 rounded bg-blue text-white"
+            class="py-2 px-4 border border-green-600 rounded bg-green-600 text-white"
           >
             Save changes
           </button>

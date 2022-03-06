@@ -14,54 +14,41 @@
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
-                  Student ID
-                </th>
-
-                <th
-                  scope="col"
-                  class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
-                >
                   Student name
                 </th>
+
                 <th
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
                   Email
                 </th>
+
                 <th
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
-                  program
+                  Contact
                 </th>
 
                 <th
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
-                  Year & Section
+                  Program
                 </th>
 
                 <th
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
-                  Remarks
+                  Status
                 </th>
+               
               </tr>
             </thead>
             <tbody class="bg-white divide-y divide-gray-200">
               <tr>
-                <td class="px-2 whitespace-nowrap">
-                  <div class="flex items-center">
-                    <div class="ml-4">
-                      <div class="text-sm font-bold text-gray-900">
-                        12345678
-                      </div>
-                    </div>
-                  </div>
-                </td>
                 <td class="px-5 py-3 whitespace-nowrap">
                   <div class="text-sm text-gray-900">
                     Krizelle Mae Falcasantos
@@ -71,16 +58,6 @@
                                     Optimization
                                  </div> -->
                 </td>
-                <td class="px-5 py-5 whitespace-nowrap text-md text-gray-900">
-                  <div class="text-sm text-gray-900">random@gmail.com</div>
-                </td>
-                <td class="px-5 py-3 whitespace-nowrap">
-                  <div class="text-sm text-gray-900">Masters in Education</div>
-                </td>
-
-                <td class="px-5 py-3 whitespace-nowrap">
-                  <div class="text-sm text-gray-900">Masteral - BEED 1A</div>
-                </td>
 
                 <!-- <td class="px-5 py-3 whitespace-nowrap">
                                  <span
@@ -89,10 +66,26 @@
                                     Active
                                  </span>
                               </td> -->
+                <td class="px-5 py-5 whitespace-nowrap text-md text-gray-900">
+                  <div class="text-sm text-gray-900">random@gmail.com</div>
+                </td>
+
+                <td class="px-5 py-5 whitespace-nowrap text-md text-gray-900">
+                  <div class="text-sm text-gray-900">09345264758</div>
+                </td>
 
                 <td class="px-5 py-3 whitespace-nowrap">
-                  <div class="text-xs text-gray-800">Remarks here ----</div>
+                  <div class="text-sm text-gray-900">Masters in Education</div>
                 </td>
+
+                <td class="px-5 py-3 whitespace-nowrap">
+                  <span
+                    class="bg-green-300 text-green-800 text-xs font-bold mr-2 px-2.5 py-0.5 rounded"
+                    >approved</span
+                  >
+                </td>
+
+                
               </tr>
             </tbody>
           </table>

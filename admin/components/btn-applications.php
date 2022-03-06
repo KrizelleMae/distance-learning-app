@@ -3,12 +3,12 @@
    <div class="uk-child-width-expand@l" uk-grid>
       <!-- One -->
       <div>
-         <a href="./enrollment.php" class="stat-box"
+         <a href="./application.php" class="stat-box"
             ><div
-               class="uk-card bg-white uk-card-body rounded p-5 <?php if($stat == 'advising') {echo 'bg-gray-700';} else {echo 'bg-gray-200';}; ?> flex items-center px-6 <?php if($stat != 'advising') echo 'stat-box'; ?>"
+               class="uk-card bg-white uk-card-body rounded p-5 <?php if($stat == 'pending') {echo 'bg-gray-700';} else {echo 'bg-gray-200';}; ?> flex items-center px-6 <?php if($stat != 'pending') echo 'stat-box';?>"
             >
                <div
-                  class="<?php if($stat == 'advising') {echo 'text-white ';} else {echo 'text-black';}; ?> font-semibold"
+                  class="<?php if($stat == 'pending') {echo 'text-white ';} else {echo 'text-black';}; ?> font-semibold"
                >
                   PENDING
                </div>
@@ -19,12 +19,12 @@
       </div>
       <!-- Two -->
       <div>
-         <a href="./assessment.php" class="stat-box">
+         <a href="./approved.php" class="stat-box">
             <div
-               class="uk-card bg-white uk-card-body rounded p-5 <?php if($stat == 'assessment') {echo 'bg-gray-700';} else {echo 'bg-gray-200';}; ?> flex items-center px-6 <?php if($stat != 'assessment') echo 'stat-box';?>"
+               class="uk-card bg-white uk-card-body rounded p-5 <?php if($stat == 'approved') {echo 'bg-gray-700';} else {echo 'bg-gray-200';}; ?> flex items-center px-6 <?php if($stat != 'approved') echo 'stat-box';?>"
             >
                <div
-                  class="<?php if($stat == 'assessment') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
+                  class="<?php if($stat == 'approved') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
                >
                   APPROVED
                </div>
@@ -36,12 +36,12 @@
       <!-- Three -->
 
       <div>
-         <a href="./payments.php" class="stat-box">
+         <a href="./declined.php" class="stat-box">
             <div
-               class="uk-card bg-white uk-card-body rounded p-5 <?php if($stat == 'payment') {echo 'bg-gray-700';} else {echo 'bg-gray-200';}; ?> flex items-center px-6 <?php if($stat != 'payment') echo 'stat-box';?>"
+               class="uk-card bg-white uk-card-body rounded p-5 <?php if($stat == 'declined') {echo 'bg-gray-700';} else {echo 'bg-gray-200';}; ?> flex items-center px-6 <?php if($stat != 'declined') echo 'stat-box';?>"
             >
                <div
-                  class="<?php if($stat == 'payment') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
+                  class="<?php if($stat == 'declined') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
                >
                   DECLINED
                </div>
@@ -52,12 +52,12 @@
       </div>
       <!-- Four -->
       <div>
-         <a href="./enlistment.php" class="stat-box">
+         <a href="./graduates.php" class="stat-box">
             <div
-               class="uk-card bg-white uk-card-body rounded p-5 <?php if($stat == 'enlistment') {echo 'bg-gray-700';} else {echo 'bg-gray-200';}; ?> flex items-center px-6 <?php if($stat != 'enlistment') echo 'stat-box';?>"
+               class="uk-card bg-white uk-card-body rounded p-5 <?php if($stat == 'graduates') {echo 'bg-gray-700';} else {echo 'bg-gray-200';}; ?> flex items-center px-6 <?php if($stat != 'graduates') echo 'stat-box';?>"
             >
                <div
-                  class="<?php if($stat == 'enlistment') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
+                  class="<?php if($stat == 'graduates') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
                >
                   GRADUATES
                </div>

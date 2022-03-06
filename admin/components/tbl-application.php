@@ -86,11 +86,19 @@
                 </td>
 
                 <td>
-                  <a href="#modal-application" uk-toggle>
+                  <!-- <a href="#modal-application" uk-toggle>
+                    <i
+                      class="fa fa-eye p-3 rounded bg-green-700 text-white mr-3"
+                    ></i
+                  ></a> -->
+
+                <a href="./view-answers.php" uk-toggle>
                     <i
                       class="fa fa-eye p-3 rounded bg-green-700 text-white mr-3"
                     ></i
                   ></a>
+                  
+                  
                 </td>
               </tr>
             </tbody>

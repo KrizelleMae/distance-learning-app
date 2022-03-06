@@ -24,12 +24,12 @@
       <i class="fa fa-dashboard mr-2.5"></i> Dashboard</a
    >
    <a href="./application.php" class="<?php if($page == "application") echo "active"; ?> list">
-      <i class="fa fa-list mr-2.5"></i>Application</a
+      <i class="fa fa-check-square-o mr-2.5"></i>Applications</a
    >
    <a href="./reports.php" class="<?php if($page == "reports") echo "active"; ?> list"> <i class="fa fa-users mr-2"></i>Reports</a>
 
    <a href="./settings.php" class="<?php if($page == "settings") echo "active"; ?> list">
-      <i class="fa fa-list mr-2.5"></i>Settings</a
+      <i class="fa fa-cog mr-2.5"></i>Settings</a
    >
    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>

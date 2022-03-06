@@ -1,7 +1,6 @@
 <?php 
 
-$page = "enrollment";
-$stat = "advising";
+$page = "reports";
 
 ?>
 
@@ -11,7 +10,7 @@ $stat = "advising";
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Admin | Enrollment</title>
+      <title>Admin | Reports</title>
 
       <?php include '../includes/links.php'; ?>
 
@@ -26,18 +25,14 @@ $stat = "advising";
       <div class="container mx-auto mt-10">
          <div class="flex items-center mb-13">
             <div class="text-3xl text-gray-700 font-semibold flex items-center">
-               ENROLLMENT TRACKING
+              REPORTS
                <ul class="uk-breadcrumb">
                   <li><a href=""></a></li>
-                  <li><span>Advising</span></li>
+                  <li><span class="font-light">View and download Reports</span></li>
                </ul>
             </div>
          </div>
-         <?php include './components/enrollment-btn.php'; ?>
-         <div class="mt-7">
-            <?php include './components/tbl-advising.php'; ?>
-            <?php include './components/modal-advising.php'; ?>
-         </div>
+         
       </div>
    </body>
 </html>

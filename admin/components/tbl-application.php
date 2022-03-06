@@ -14,20 +14,7 @@
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
-                  Student ID
-                </th>
-
-                <th
-                  scope="col"
-                  class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
-                >
                   Student name
-                </th>
-                <th
-                  scope="col"
-                  class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
-                >
-                  program
                 </th>
 
                 <th
@@ -41,7 +28,14 @@
                   scope="col"
                   class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
                 >
-                  Remarks
+                  Contact
+                </th>
+
+                <th
+                  scope="col"
+                  class="px-6 py-5 text-left text-sm font-medium text-white uppercase tracking-wider"
+                >
+                  Program
                 </th>
 
                 <th
@@ -55,15 +49,6 @@
             </thead>
             <tbody class="bg-white divide-y divide-gray-200">
               <tr>
-                <td class="px-2 whitespace-nowrap">
-                  <div class="flex items-center">
-                    <div class="ml-4">
-                      <div class="text-sm font-bold text-gray-900">
-                        12345678
-                      </div>
-                    </div>
-                  </div>
-                </td>
                 <td class="px-5 py-3 whitespace-nowrap">
                   <div class="text-sm text-gray-900">
                     Krizelle Mae Falcasantos
@@ -72,10 +57,6 @@
                   <!-- <div class="text-md text-white">
                                     Optimization
                                  </div> -->
-                </td>
-
-                <td class="px-5 py-3 whitespace-nowrap">
-                  <div class="text-sm text-gray-900">Masters in Education</div>
                 </td>
 
                 <!-- <td class="px-5 py-3 whitespace-nowrap">
@@ -89,19 +70,23 @@
                   <div class="text-sm text-gray-900">random@gmail.com</div>
                 </td>
 
+                <td class="px-5 py-5 whitespace-nowrap text-md text-gray-900">
+                  <div class="text-sm text-gray-900">09345264758</div>
+                </td>
+
                 <td class="px-5 py-3 whitespace-nowrap">
-                  <div class="text-xs textt-gray-900">Remarks here ----</div>
+                  <div class="text-sm text-gray-900">Masters in Education</div>
                 </td>
 
                 <td class="px-5 py-3 whitespace-nowrap">
                   <span
-                    class="bg-red-100 text-red-800 text-xs font-bold mr-2 px-2.5 py-0.5 rounded"
-                    >unsaved</span
+                    class="bg-gray-300 text-gray-800 text-xs font-bold mr-2 px-2.5 py-0.5 rounded"
+                    >pending</span
                   >
                 </td>
 
                 <td>
-                  <a href="#modal-sections" uk-toggle>
+                  <a href="#modal-application" uk-toggle>
                     <i
                       class="fa fa-eye p-3 rounded bg-green-700 text-white mr-3"
                     ></i

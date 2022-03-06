@@ -10,7 +10,7 @@
                <div
                   class="<?php if($stat == 'advising') {echo 'text-white ';} else {echo 'text-black';}; ?> font-semibold"
                >
-                  ADVISING
+                  PENDING
                </div>
 
                <div class="uk-card-badge uk-label my-1 rounded-full">5</div>
@@ -26,7 +26,7 @@
                <div
                   class="<?php if($stat == 'assessment') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
                >
-                  ASSESSMENT
+                  APPROVED
                </div>
 
                <div class="uk-card-badge uk-label my-1 rounded-full">5</div>
@@ -43,7 +43,7 @@
                <div
                   class="<?php if($stat == 'payment') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
                >
-                  PENDING PAYMENTS
+                  DECLINED
                </div>
 
                <div class="uk-card-badge uk-label my-1 rounded-full">5</div>
@@ -59,7 +59,7 @@
                <div
                   class="<?php if($stat == 'enlistment') {echo 'text-white ';} else {echo 'text-black';};?> font-semibold"
                >
-                  ENLISTMENT
+                  GRADUATES
                </div>
 
                <div class="uk-card-badge uk-label my-1 rounded-full">5</div>

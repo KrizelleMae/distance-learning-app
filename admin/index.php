@@ -49,7 +49,7 @@ else{
                   <button
                      class="bg-gray-800 px-5 py-2 text-lg text-white rounded hover:bg-sky-800"
                   >
-                     View enrollees &nbsp;
+                     View applicants &nbsp;
                      <i class="fa fa-chevron-right"></i></button
                ></a>
             </div>
@@ -61,7 +61,7 @@ else{
                <div>
                   <div class="uk-card shadow-sm bg-white uk-card-body rounded">
                      <div class="text-lg float-left pb-0 mt-1">
-                        Pending status
+                        Applicants
                         <div class="text-5xl font-medium text-black pt-2">
                            100
                         </div>
@@ -70,7 +70,7 @@ else{
                      <div
                         class="float-right bg-pink-600 text-white p-6 rounded"
                      >
-                        <i class="fa fa-clock-o text-5xl"></i>
+                        <i class="fa fa-clock-o text-4xl"></i>
                      </div>
                   </div>
                </div>
@@ -78,14 +78,14 @@ else{
                <div>
                   <div class="uk-card shadow-sm bg-white uk-card-body rounded">
                      <div class="text-lg float-left pb-0 mt-1">
-                        Total students
+                         Students Enrolled
                         <div class="text-5xl font-medium text-black pt-2">
                            356
                         </div>
                      </div>
 
                      <div class="float-right bg-sky-500 text-white p-6 rounded">
-                        <i class="fa fa-users text-5xl"></i>
+                        <i class="fa fa-users text-4xl"></i>
                      </div>
                   </div>
                </div>
@@ -93,7 +93,7 @@ else{
                <div>
                   <div class="uk-card shadow-sm bg-white uk-card-body rounded">
                      <div class="text-lg float-left pb-0 mt-1">
-                        Active students
+                        Graduates
                         <div class="text-5xl font-medium text-black pt-2">
                            100
                         </div>
@@ -102,7 +102,7 @@ else{
                      <div
                         class="float-right bg-orange-400 text-white p-6 rounded"
                      >
-                        <i class="fa fa-clock-o text-5xl"></i>
+                        <i class="fa fa-graduation-cap text-4xl"></i>
                      </div>
                   </div>
                </div>
@@ -116,7 +116,7 @@ else{
                   <div class="uk-grid-small uk-flex-middle" uk-grid>
                      <div class="uk-width-expand">
                         <p class="uk-card-title uk-margin-remove-bottom">
-                           Enrollment Status
+                           No. of Students Per Program
                         </p>
                      </div>
                   </div>
@@ -137,7 +137,7 @@ else{
                   <div class="uk-grid-small uk-flex-middle" uk-grid>
                      <div class="uk-width-expand">
                         <p class="uk-card-title uk-margin-remove-bottom">
-                           No. of Students / Program
+                           Male and Female Students
                         </p>
                      </div>
                   </div>
@@ -147,7 +147,7 @@ else{
                </div>
                <div class="uk-card-footer">
                   <a href="#" class="uk-button uk-button-text"
-                     >View enrollees ></a
+                     >View Students ></a
                   >
                </div>
             </div>

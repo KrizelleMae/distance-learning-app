@@ -10,7 +10,7 @@
       <div class="flex items-center mb-7">
          <img src="../images/logo.png" class="h-14 mr-3" alt="" />
          <p class="text-2xl text-blue font-bold ">
-            Distance Learning Enrollment System
+            Distance Learning Online Application
          </p>
       </div>
 
@@ -23,11 +23,14 @@
    <a href="./" class="<?php if($page == "dashboard") echo "active cursor-not-allowed"; ?> list">
       <i class="fa fa-dashboard mr-2.5"></i> Dashboard</a
    >
-   <a href="./enrollment.php" class="<?php if($page == "enrollment") echo "active"; ?> list">
-      <i class="fa fa-list mr-2.5"></i>Enrollment STATUS</a
+   <a href="./application.php" class="<?php if($page == "application") echo "active"; ?> list">
+      <i class="fa fa-list mr-2.5"></i>Application</a
    >
-   <a href="./students.php" class="<?php if($page == "students") echo "active"; ?> list"> <i class="fa fa-users mr-2"></i>Students</a>
+   <a href="./reports.php" class="<?php if($page == "reports") echo "active"; ?> list"> <i class="fa fa-users mr-2"></i>Reports</a>
 
+   <a href="./settings.php" class="<?php if($page == "settings") echo "active"; ?> list">
+      <i class="fa fa-list mr-2.5"></i>Settings</a
+   >
    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
    </a>
@@ -43,3 +46,5 @@
       }
    }
 </script>
+
+

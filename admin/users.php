@@ -1,6 +1,6 @@
 <?php 
 
-$stat = "settings";
+$stat = "users";
 $page = "settings";
 include './auth.php';
 
@@ -42,9 +42,9 @@ include './auth.php';
             <!-- SIDEBAR HERE -->
             <?php include './components/sidebar-settings.php';?>
           </div>
-          <div class="uk-width-expand p-10 bg-white ml-5">
+          <div class="uk-width-expand p-8 bg-white ml-5">
             <!-- CONTENT HERE -->
-            hey
+            Users
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@
 
 $page = "application";
 $stat = "declined";
+include './auth.php'
 
 ?>
 

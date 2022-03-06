@@ -1,7 +1,7 @@
 <?php 
 
 $page = "reports";
-
+include './auth.php';
 ?>
 
 <!DOCTYPE html>

@@ -3,6 +3,8 @@
 $page = "application";
 $stat = "pending";
 
+include './auth.php'
+
 ?>
 
 <!DOCTYPE html>

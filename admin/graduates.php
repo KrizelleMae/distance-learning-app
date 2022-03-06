@@ -3,6 +3,8 @@
 $page = "application";
 $stat = "graduates";
 
+include './auth.php'
+
 ?>
 
 <!DOCTYPE html>

@@ -1,9 +1,9 @@
 <?php 
 
-$stat = "settings";
+$stat = "app-status";
 $page = "settings";
-include './auth.php';
-
+ 
+include './auth.php'
 ?>
 
 <!DOCTYPE html>
@@ -42,9 +42,41 @@ include './auth.php';
             <!-- SIDEBAR HERE -->
             <?php include './components/sidebar-settings.php';?>
           </div>
-          <div class="uk-width-expand p-10 bg-white ml-5">
+          <div class="uk-width-expand p-8 bg-white ml-5">
             <!-- CONTENT HERE -->
-            hey
+            <div class="p-6 py-5 bg-blue-100 rounded-lg hover:text-gray-700">
+              <a class="hover:no-underline">
+                <p class="mb-2 text-lg font-bold tracking-tight text-gray-700">
+                  <i class="fa fa-exclamation-circle"></i> &nbsp; Application
+                  Status
+                </p>
+              </a>
+              <p class="text-gray-600 text-sm">
+                Here are the biggest enterprise technology acquisitions of 2021
+                so far, in reverse chronological order.
+              </p>
+            </div>
+
+            <!-- TOGGLE HERE -->
+            <div class="mt-5">
+              <label
+                for="toggle-example-checked"
+                class="flex relative items-center mb-4 cursor-pointer"
+              >
+                <input
+                  type="checkbox"
+                  id="toggle-example-checked"
+                  class="sr-only"
+                  checked
+                />
+                <div
+                  class="w-11 h-6 bg-gray-200 rounded-full border border-gray-200 toggle-bg"
+                ></div>
+                <span class="ml-3 text-sm font-medium text-gray-900"
+                  >Toggle me (checked)</span
+                >
+              </label>
+            </div>
           </div>
         </div>
       </div>
